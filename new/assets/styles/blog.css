@@ -100,4 +100,25 @@
 }
 #contentContainer #cardBox .card .card-body div svg {
   color: var(--main-color-two);
+}
+
+.pagination-container nav ul li a {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background: var(--main-color-two);
+  color: #fff;
+  margin: 0 1px;
+  transition: all linear 0.3s;
+}
+.pagination-container nav ul li a:hover {
+  background-color: var(--main-color-one);
+  color: #fff;
 }/*# sourceMappingURL=blog.css.map */
