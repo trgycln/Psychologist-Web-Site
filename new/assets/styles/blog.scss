@@ -16,6 +16,7 @@
 	font-family: var(--body-font);
 	box-sizing: border-box;
 	list-style: none;
+	text-decoration: none !important;
 }
 
 .navbar-toggler{
@@ -43,5 +44,72 @@
 
 	.nav-link {
 		color: white;
+	}
+}
+
+
+// Content Section
+
+#contentContainer{
+	#cardBox{
+		.card{
+			border: none;
+			background-color:#f7f1f1;
+			border-bottom: 1px solid var(--main-color-two);
+			border-radius: 0;
+			position: relative;
+			margin-bottom: 35px;
+			.arrowContainer{
+				width: 50px;
+				height: 50px;
+				background-color: #FFFFFF;
+				border-radius: 50%;
+				position: absolute;
+				left: 50%;
+				z-index: 99;
+				transform: translateX(-50%);
+				bottom: -25px;
+				transition: all .5s;
+				&:hover {
+					background-color: var(--main-color-one);
+					color: #fff;
+				}
+				&:hover svg{
+					color: #fff;
+				}
+				svg{
+					color: var(--main-color-one);
+					transition: all .5s;
+				}
+			}
+			.card-body{
+				padding-bottom: 50px;
+				h5{
+					color: var(--main-color-two);
+					font-weight: bold;
+					cursor: pointer;
+				}
+				a{
+					color: black;
+					font-weight: bold;
+					&:hover{
+						color: var(--main-color-one);
+					}
+				}
+				div{
+					a{
+						color: var(--main-color-two);
+						.seperator{
+							height: 1px;
+							width: 10px;
+							color: var(--main-color-one);
+						}
+					}
+					svg{
+						color: var(--main-color-two);
+					}
+				}
+			}
+		}
 	}
 }
