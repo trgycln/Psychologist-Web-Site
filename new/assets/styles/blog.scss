@@ -47,6 +47,14 @@
 	}
 }
 
+@media (max-width:992px) {
+	#navbarSupportedContent {
+		ul {
+			gap: 0 !important;
+		}
+	}
+}
+
 
 // Content Section
 
@@ -100,9 +108,8 @@
 					a{
 						color: var(--main-color-two);
 						.seperator{
-							height: 1px;
-							width: 10px;
 							color: var(--main-color-one);
+							
 						}
 					}
 					svg{

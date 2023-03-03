@@ -41,6 +41,11 @@
   color: white;
 }
 
+@media (max-width: 992px) {
+  #navbarSupportedContent ul {
+    gap: 0 !important;
+  }
+}
 #contentContainer #cardBox .card {
   border: none;
   background-color: #f7f1f1;
@@ -91,8 +96,6 @@
   color: var(--main-color-two);
 }
 #contentContainer #cardBox .card .card-body div a .seperator {
-  height: 1px;
-  width: 10px;
   color: var(--main-color-one);
 }
 #contentContainer #cardBox .card .card-body div svg {

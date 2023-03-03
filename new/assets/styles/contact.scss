@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+	--main-color-one: #f80759;
+	--main-color-two: #021B79;
+	--secondary-color: #006aec;
+	--heading-color: #111111;
+	--paragraph-color: #5f7586;
+	--heading-font: "Poppins", sans-serif;
+	--body-font: "Poppins", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: var(--body-font);
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none !important;
+}
+
+.contact-social{
+	ul{
+		li{
+			a{
+				border: 1px solid rgba(0,0,0,0.3);
+				display: flex;
+				width: 40px;
+				height: 40px;
+				justify-content: center;
+				align-items: center;
+				border-radius: 50%;
+				transition: all 0.5s;
+
+				&:hover{
+					background-color: var(--main-color-one);
+				}
+
+				&:hover i{
+					color: #fff;
+				}
+
+				i{
+					color: rgba(0,0,0,0.6);
+					transition: all 0.5s;
+				}
+			}
+		}
+	}
+}
