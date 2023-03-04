@@ -134,8 +134,17 @@ body {
 
 @media (max-width:992px) {
 	#navbarSupportedContent {
+		background-color: var(--main-color-two) !important;
 		ul {
 			gap: 0 !important;
+			li{
+				display: inline-block;
+				border-bottom: 1px solid var(--paragraph-color);
+				a{
+					color: #fff;
+				}
+			}
+			
 		}
 	}
 }
@@ -500,6 +509,7 @@ body {
 		}
 	}
 }
+
 
 // Footer Section
 
