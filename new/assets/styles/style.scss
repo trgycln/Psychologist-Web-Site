@@ -238,7 +238,7 @@ body {
 			transform: translateX(-50%);
 			width: 80%;
 			padding: 20px;
-			box-shadow: 0 0 5px black;
+			box-shadow: 0 10px 50px rgb(0 0 0 / 8%);
 
 			h4 {
 				font-size: 20px;
@@ -491,12 +491,14 @@ body {
 				display: flex;
 				border-radius: 0 !important;
 				padding-top: 30px;
-
+				box-shadow: 0 10px 50px rgb(0 0 0 / 8%) !important;
+				
 				#quote {
 					color: var(--main-color-one);
 				}
 
 				.card-body {
+					
 					.card-text {
 						color: rgba(0, 0, 0, 0.7);
 					}
@@ -507,6 +509,31 @@ body {
 				}
 			}
 		}
+	}
+}
+
+.arrowContainer{
+	width: 50px;
+	height: 50px;
+	background-color: #e9e3e3;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	z-index: 99;
+	transform: translateX(-50%);
+	bottom: -25px;
+	transition: all .5s;
+	box-shadow: 0 10px 50px rgb(0 0 0 / 8%) !important;
+	&:hover {
+		background-color: var(--main-color-one);
+		color: #fff;
+	}
+	&:hover svg{
+		color: #fff;
+	}
+	svg{
+		color: var(--main-color-one);
+		transition: all .5s;
 	}
 }
 

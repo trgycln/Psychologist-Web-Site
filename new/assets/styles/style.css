@@ -174,7 +174,7 @@ body .header-top .right-side i {
   transform: translateX(-50%);
   width: 80%;
   padding: 20px;
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
 }
 .sevice-box div .content h4 {
   font-size: 20px;
@@ -355,6 +355,7 @@ body .header-top .right-side i {
   display: flex;
   border-radius: 0 !important;
   padding-top: 30px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08) !important;
 }
 #testimonial-section .container .row .card #quote {
   color: var(--main-color-one);
@@ -364,6 +365,31 @@ body .header-top .right-side i {
 }
 #testimonial-section .container .row .card .card-body h6 {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.arrowContainer {
+  width: 50px;
+  height: 50px;
+  background-color: #e9e3e3;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  z-index: 99;
+  transform: translateX(-50%);
+  bottom: -25px;
+  transition: all 0.5s;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08) !important;
+}
+.arrowContainer:hover {
+  background-color: var(--main-color-one);
+  color: #fff;
+}
+.arrowContainer:hover svg {
+  color: #fff;
+}
+.arrowContainer svg {
+  color: var(--main-color-one);
+  transition: all 0.5s;
 }
 
 #footer-section {
