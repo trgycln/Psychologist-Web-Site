@@ -75,6 +75,10 @@ body #topPoint {
   margin: 0px auto;
 }
 
+.header-menu {
+  margin: 0px auto;
+}
+
 @media (max-width: 992px) {
   .left-side {
     display: none !important;
