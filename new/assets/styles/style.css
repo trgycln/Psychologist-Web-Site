@@ -99,6 +99,10 @@ body #topPoint {
   font-size: 16px;
 }
 
+.logo {
+  margin-top: 30px;
+}
+
 @media (max-width: 992px) {
   .container {
     flex-direction: column;
@@ -108,21 +112,45 @@ body #topPoint {
   }
   .container .logo {
     order: 2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 992px) {
-  #navbarSupportedContent {
+  .navbarSide {
+    width: 100%;
+  }
+  .navbarSide .navbar {
+    width: 100%;
+  }
+  .navbarSide .navbar #navbarToggler {
+    position: absolute !important;
+    top: -50px !important;
+    right: 0 !important;
+    background-color: #fff;
+  }
+  .navbarSide .navbar #navbarSupportedContent {
     background-color: var(--main-color-two) !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
   }
-  #navbarSupportedContent ul {
+  .navbarSide .navbar #navbarSupportedContent ul {
     gap: 0 !important;
+    width: 100%;
   }
-  #navbarSupportedContent ul li {
+  .navbarSide .navbar #navbarSupportedContent ul li {
     display: inline-block;
     border-bottom: 1px solid var(--paragraph-color);
+    border-top: 1px solid var(--paragraph-color);
+    width: 100%;
   }
-  #navbarSupportedContent ul li a {
+  .navbarSide .navbar #navbarSupportedContent ul li a {
     color: #fff;
+    display: block;
+    width: 100%;
   }
 }
 #slider-section {
@@ -136,8 +164,8 @@ body #topPoint {
   height: 457px;
 }
 #slider-section #sld-img .sld-img-container img {
-  width: 104%;
-  margin-top: -175px;
+  width: 105%;
+  margin-top: -150px;
 }
 
 #sld-title .hero-content h3 {
@@ -153,8 +181,19 @@ body #topPoint {
 }
 
 @media (max-width: 992px) {
+  #slider-section #sld-img .sld-img-container img {
+    width: 150%;
+    margin-top: -150px;
+    margin-left: -60px;
+  }
   #sld-title .hero-content {
     text-align: center;
+  }
+  #sld-title .hero-content h1 {
+    font-size: 35px;
+  }
+  #sld-title .hero-content h1 span {
+    font-size: 35px;
   }
 }
 .service-section {
@@ -250,7 +289,7 @@ body #topPoint {
     padding-left: 20px;
   }
   .service-section #bgContainer {
-    background-color: #f3f6fd;
+    background-color: var(--main-color-two);
   }
   .service-section #bgContainer #service-container {
     background-color: var(--main-color-two);
@@ -283,7 +322,7 @@ body #topPoint {
 }
 
 .section-title {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #aboutLeftSide {
@@ -430,4 +469,11 @@ element.style {
 
 .footer-widget-social ul li a {
   color: gray;
+}
+
+.footer-img {
+  width: 200px;
+  height: 150px;
+  background-image: linear-gradient(to bottom, #070b3b, #070b3b, #070b3b, #fff, #070b3b);
+  box-shadow: 0 0 15px 15px #070b3b inset;
 }/*# sourceMappingURL=style.css.map */

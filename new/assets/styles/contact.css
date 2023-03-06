@@ -37,4 +37,9 @@
 .contact-social ul li a i {
   color: rgba(0, 0, 0, 0.6);
   transition: all 0.5s;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 450px;
 }/*# sourceMappingURL=contact.css.map */
