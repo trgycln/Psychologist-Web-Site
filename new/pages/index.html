@@ -59,7 +59,7 @@
 			<nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-end">
 				<div class="container-fluid text-center">
 					<a class="navbar-brand" href="#"></a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					<button id="navbarToggler" class="navbar-toggler" type="button" data-bs-toggle="collapse"
 						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -90,7 +90,7 @@
 	<section id="slider-section">
 		<div class="container">
 			<div id="main-area" class="container row">
-				<div id="sld-title" class="col-lg-6 d-flex justify-content-left align-items-center">
+				<div id="sld-title" class="col-lg-6 d-flex justify-content-center align-items-center">
 					<div class="hero-content">
 						<h3>Uzman Psikolog</h3>
 						<h1>Ruşen <span>Yavuz</span></h1>
@@ -105,15 +105,16 @@
 			</div>
 		</div>
 	</section>
-	<section id="serviceSection" class="service-section pb-4">
+
+	<section id="serviceSection" class="service-section container-fluid pb-4">
 		<div id="bgContainer" class="container">
-			<div id="service-container" class="container-fluid">
+			<div id="service-container" class="container">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="section-title featured-section-title px-2">
 								<span class="subtitle">Hizmetler</span>
-								<h2 class="title p-0 py-4">Ruhsal Bir Hijyene Hazır Mısınız?
+								<h2 class="title p-0 pt-4">Ruhsal Bir Hijyene Hazır Mısınız?
 								</h2>
 							</div>
 						</div>
@@ -183,6 +184,7 @@
 			</div>
 		</div>
 	</section>
+
 	<div class="featured-bottom">
 		<div class="container">
 			<div class="row">
@@ -457,8 +459,10 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12">
 					<div class="footer-widget widget">
-						<div class="footer-widget-about" style="text-align:center;">
-							<img src="../assets/img/logo.png" alt="Ruşen Yavuz" />
+						<div class="footer-widget-about d-flex justify-content-center" style="text-align:center;">
+							<div class="footer-img">
+								<img src="../assets/img/logo.png" alt="Ruşen Yavuz" />
+							</div>
 						</div>
 						<div class="footer-widget-social mt-30" style="text-align: center;">
 							<ul class="d-flex gap-1">
@@ -491,7 +495,7 @@
 
 	<script>
 		var swiper = new Swiper(".mySwiper", {
-			slidesPerView: 3,
+			slidesPerView: 1,
 			spaceBetween: 30,
 			loop: true,
 			navigation: {
@@ -500,7 +504,7 @@
 			},
 		});
 		var swiperBlog = new Swiper(".mySwiperBlog", {
-			slidesPerView: 3,
+			slidesPerView: 1,
 			spaceBetween: 30,
 			loop: true,
 			navigation: {
