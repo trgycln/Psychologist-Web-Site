@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="../new/styles/animate.css">
 	<link rel="stylesheet" href="../assets/styles/style.css">
 	<link rel="stylesheet" href="../assets/styles/blog.css">
+	<link rel="stylesheet" href="../assets/styles/services.css">
 </head>
 
 <body>
@@ -53,7 +54,7 @@
 							<li class="nav-item">
 								<a class="nav-link" href="./about.html">Hakkımda</a>
 							</li>
-                            <li class="nav-item">
+							<li class="nav-item">
 								<a class="nav-link active" href="./services.html">Hizmetler</a>
 							</li>
 							<li class="nav-item">
@@ -68,7 +69,7 @@
 			</nav>
 		</div>
 	</div>
-	<div class="navbar-container d-flex flex-column justify-content-center align-items-center">
+	<div class="navbar-container navbar-services d-flex flex-column justify-content-center align-items-center">
 		<div class="container row d-flex justify-content-center align-items-center">
 			<div class="logo col d-flex justify-content-center">
 				<img src="../new/assets/img/logo.png" width="200px" alt="">
@@ -83,184 +84,108 @@
 	</div>
 	<div class="container d-flex justify-content-center align-items-center">
 		<div id="contentContainer" class="row container mt-5 d-flex justify-content-evenly align-items-center">
-			<div id="cardBox" class="col col-lg-4 col-md-6 container d-flex justify-content-center align-items-center">
-				<div class="card" style="width: 25rem;">
-					<img src="../assets/img/blog-images/01.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="h6 card-title">Web Development</h5>
-						<a href="#">The Best Cities to Travel Our Team in the USA</a>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
-						<div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-								class="bi bi-person-fill" viewBox="0 0 16 16">
-								<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-							</svg>
-							<a href="#">BATTAL GAZİ <span class="seperator">-</span> <span>Temmuz 15, 2023</span></a>
+			<section class="light">
+				<div class="container py-2">
+					<article class="postcard light blue">
+						<a class="postcard__img_link" href="#">
+							<img class="postcard__img" src="../assets/img/bireysel.jpg"
+								alt="Bireysel Psikolojik Danışmanlık | Ruşen Yavuz" />
+						</a>
+						<div class="postcard__text t-dark">
+							<h1 class="postcard__title blue"><a href="#">Bireysel Psikolojik Danışmanlık</a></h1>
+							<div class="postcard__bar"></div>
+							<div class="postcard__preview-txt">Bireysel psikolojik danışmanlık, kaygı, depresyon, stres,
+								özgüven eksikliği, aile sorunları, iş stresi, ilişki problemleri ve yaşam geçişleriyle
+								ilgili sorunlar gibi birçok alanda destek sağlayabilir. Danışman, kişinin sorunlarına
+								ilişkin farkındalık ve anlayış geliştirmesine yardımcı olmak için çeşitli terapi
+								teknikleri kullanabilir.</div>
 						</div>
-					</div>
-					<div class="arrowContainer d-flex justify-content-center align-items-center">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi bi-arrow-right" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-						</svg>
-					</div>
-				</div>
-			</div>
-			<div id="cardBox" class="col col-lg-4 col-md-6 container d-flex justify-content-center align-items-center">
-				<div class="card" style="width: 25rem;">
-					<img src="../assets/img/blog-images/02.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="h6 card-title">Web Development</h5>
-						<a href="#">The Best Cities to Travel Our Team in the USA</a>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
-						<div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-								class="bi bi-person-fill" viewBox="0 0 16 16">
-								<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-							</svg>
-							<a href="#">BATTAL GAZİ <span class="seperator">-</span> <span>Temmuz 15, 2023</span></a>
+					</article>
+					<article class="postcard light red">
+						<a class="postcard__img_link" href="#">
+							<img class="postcard__img" src="../assets/img/ergen.jpg"
+								alt="Ergen Terapisi | Ruşen Yavuz" />
+						</a>
+						<div class="postcard__text t-dark">
+							<h1 class="postcard__title blue"><a href="#">Ergen Terapisi</a></h1>
+							<div class="postcard__bar"></div>
+							<div class="postcard__preview-txt">Ergen terapisi, gençlerin psikolojik ve duygusal
+								sorunlarına yardımcı olmayı amaçlar ve ergenlerin yaşadığı sorunlarla başa çıkmalarına
+								yardımcı olmak için çeşitli yöntemler kullanır. Bu yöntemler arasında bireysel terapi,
+								aile terapisi, grup terapisi, sanat terapisi, müzik terapisi ve egzersiz gibi
+								aktiviteler yer alabilir. Terapi süreci genellikle ergenin yaşadığı soruna ve terapi
+								yöntemine göre değişebilir.</div>
 						</div>
-					</div>
-					<div class="arrowContainer d-flex justify-content-center align-items-center">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi bi-arrow-right" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-						</svg>
-					</div>
-				</div>
-			</div>
-			<div id="cardBox" class="col col-lg-4 col-md-6 container d-flex justify-content-center align-items-center">
-				<div class="card" style="width: 25rem;">
-					<img src="../assets/img/blog-images/03.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="h6 card-title">Web Development</h5>
-						<a href="#">The Best Cities to Travel Our Team in the USA</a>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
-						<div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-								class="bi bi-person-fill" viewBox="0 0 16 16">
-								<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-							</svg>
-							<a href="#">BATTAL GAZİ
-								<span class="seperator">-</span>
-								<span>Temmuz 15, 2023</span></a>
+					</article>
+					<article class="postcard light green">
+						<a class="postcard__img_link" href="#">
+							<img class="postcard__img" src="../assets/img/ailecift.jpg"
+								alt="Aile ve Çift Terapisi | Ruşen Yavuz" />
+						</a>
+						<div class="postcard__text t-dark">
+							<h1 class="postcard__title blue"><a href="#">Aile ve Çift Danışmanlığı </a></h1>
+							<div class="postcard__bar"></div>
+							<div class="postcard__preview-txt">Aile ve çift danışmanlığı, çatışmaları yönetmeye,
+								iletişim becerilerini geliştirmeye, ilişkideki olumsuz kalıpları tanımlamaya ve çözmeye,
+								farklı bakış açılarını anlamaya ve birbirlerini daha iyi anlamaya yardımcı olur.
+								Danışmanlık sürecinde, danışmanlar aile ya da çift üyelerine özel stratejiler ve
+								beceriler öğretirler.
+
+							</div>
 						</div>
-					</div>
-					<div class="arrowContainer d-flex justify-content-center align-items-center">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi bi-arrow-right" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-						</svg>
-					</div>
-				</div>
-			</div>
-			<div id="cardBox" class="col col-lg-4 col-md-6 container d-flex justify-content-center align-items-center">
-				<div class="card" style="width: 25rem;">
-					<img src="../assets/img/blog-images/04.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="h6 card-title">Web Development</h5>
-						<a href="#">The Best Cities to Travel Our Team in the USA</a>
-						<p class="card-text">Some aliveli text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
-						<div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-								class="bi bi-person-fill" viewBox="0 0 16 16">
-								<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-							</svg>
-							<a href="#">BATTAL GAZİ <span class="seperator">-</span> <span>Temmuz 15, 2023</span></a>
+					</article>
+					<article class="postcard light blue">
+						<a class="postcard__img_link" href="#">
+							<img class="postcard__img" src="../assets/img/kayipveyas.jpg"
+								alt="Kayıp ve Yas Terapisi | Ruşen Yavuz" />
+						</a>
+						<div class="postcard__text t-dark">
+							<h1 class="postcard__title blue"><a href="#">Kayıp ve Yas Terapisi</a></h1>
+							<div class="postcard__bar"></div>
+							<div class="postcard__preview-txt">Bireysel psikolojik danışmanlık, kaygı, depresyon, stres,
+								özgüven eksikliği, aile sorunları, iş stresi, ilişki problemleri ve yaşam geçişleriyle
+								ilgili sorunlar gibi birçok alanda destek sağlayabilir. Danışman, kişinin sorunlarına
+								ilişkin farkındalık ve anlayış geliştirmesine yardımcı olmak için çeşitli terapi
+								teknikleri kullanabilir.</div>
 						</div>
-					</div>
-					<div class="arrowContainer d-flex justify-content-center align-items-center">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi bi-arrow-right" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-						</svg>
-					</div>
-				</div>
-			</div>
-			<div id="cardBox" class="col col-lg-4 col-md-6 container d-flex justify-content-center align-items-center">
-				<div class="card" style="width: 25rem;">
-					<img src="../assets/img/blog-images/05.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="h6 card-title">Web Development</h5>
-						<a href="#">The Best Cities to Travel Our Team in the USA</a>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
-						<div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-								class="bi bi-person-fill" viewBox="0 0 16 16">
-								<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-							</svg>
-							<a href="#">BATTAL GAZİ <span class="seperator">-</span> <span>Temmuz 15, 2023</span></a>
+					</article>
+					<article class="postcard light yellow">
+						<a class="postcard__img_link" href="#">
+							<img class="postcard__img" src="../assets/img/egitim.jpg"
+								alt="Eğitim Danışmanlığı | Ruşen Yavuz" />
+						</a>
+						<div class="postcard__text t-dark">
+							<h1 class="postcard__title blue"><a href="#">Eğitim Danışmanlığı</a></h1>
+							<div class="postcard__bar"></div>
+							<div class="postcard__preview-txt">Eğitim danışmanlığı, öğrencilerin başarıya ulaşmalarına
+								yardımcı olmak için oldukça önemli bir meslektir. Eğitim danışmanları, öğrencilerin
+								ihtiyaçlarına uygun bireysel yaklaşımlar benimseyerek onların potansiyellerini ortaya
+								çıkarmaya ve başarılı olmalarına yardımcı olmaya çalışırlar.</div>
 						</div>
-					</div>
-					<div class="arrowContainer d-flex justify-content-center align-items-center">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi bi-arrow-right" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-						</svg>
-					</div>
-				</div>
-			</div>
-			<div id="cardBox" class="col col-lg-4 col-md-6 container d-flex justify-content-center align-items-center">
-				<div class="card" style="width: 25rem;">
-					<img src="../assets/img/blog-images/06.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="h6 card-title">Web Development</h5>
-						<a href="#">The Best Cities to Travel Our Team in the USA</a>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
-						<div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-								class="bi bi-person-fill" viewBox="0 0 16 16">
-								<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-							</svg>
-							<a href="#">BATTAL GAZİ <span class="seperator">-</span> <span>Temmuz 15, 2023</span></a>
+					</article>
+					<article class="postcard light red">
+						<a class="postcard__img_link" href="#">
+							<img class="postcard__img" src="../assets/img/online.jpg"
+								alt="Online Psikolojik Danışmanlık | Ruşen Yavuz" />
+						</a>
+						<div class="postcard__text t-dark">
+							<h1 class="postcard__title blue"><a href="#">Online Danışmanlık </a></h1>
+							<div class="postcard__bar"></div>
+							<div class="postcard__preview-txt">Online danışmanlık, bireylere veya gruplara internet
+								üzerinden psikolojik, kişisel veya mesleki sorunlarla ilgili yardım ve destek sağlamak
+								için kullanılan bir hizmettir. Yüz yüze danışmanlık hizmetleri ile benzer bir şekilde
+								çalışır, ancak internet üzerinden gerçekleştirilir. Bu hizmet, insanların zaman veya
+								mesafe gibi kısıtlamalar nedeniyle geleneksel danışmanlık hizmetlerine erişememesi
+								durumunda özellikle yararlı olabilir. Ayrıca, online danışmanlık, bireylerin
+								gizliliklerini korumalarına ve evlerinden veya çalışma yerlerinden konforlu bir ortamda
+								danışmanlık alabilmelerine olanak tanır.
+
+							</div>
 						</div>
-					</div>
-					<div class="arrowContainer d-flex justify-content-center align-items-center">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi bi-arrow-right" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-						</svg>
-					</div>
+					</article>
 				</div>
-			</div>
+			</section>
 		</div>
-	</div>
-	<div class="pagination-container container d-flex justify-content-center">
-		<nav aria-label="Page navigation example">
-			<ul class="pagination">
-				<li class="page-item">
-					<a class="page-link" href="#" aria-label="Previous">
-						<span aria-hidden="true">&laquo;</span>
-					</a>
-				</li>
-				<li class="page-item"><a class="page-link" href="#">1</a></li>
-				<li class="page-item"><a class="page-link" href="#">2</a></li>
-				<li class="page-item"><a class="page-link" href="#">3</a></li>
-				<li class="page-item">
-					<a class="page-link" href="#" aria-label="Next">
-						<span aria-hidden="true">&raquo;</span>
-					</a>
-				</li>
-			</ul>
-		</nav>
 	</div>
 	<a href="#topPoint">
 		<div style="height: 50px; width: 50px; background-color: #f80759; border-radius: 50%; display: flex; justify-content: center; align-items: center; color: white; position: fixed; bottom: 30px; right: 30px; z-index: 99; cursor:pointer;"
@@ -282,14 +207,6 @@
 								<img src="../assets/img/logo.png" alt="Ruşen Yavuz" />
 							</div>
 						</div>
-						<div class="footer-widget-social mt-30" style="text-align: center;">
-							<ul class="d-flex gap-1">
-								<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-							</ul>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -297,6 +214,17 @@
 		<hr>
 		<div class="copyright-area text-center mt-70">
 			<div class="container">
+				<div class="footer-social mt-30">
+					<ul class="d-flex justify-content-center">
+						<li class="d-flex gap-2">
+							<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+							<a href=""><i class="fa-brands fa-twitter"></i></a>
+							<a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+							<a href=""><i class="fa-brands fa-instagram"></i></a>
+							<a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+						</li>
+					</ul>
+				</div>
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="copyright-area-inner">

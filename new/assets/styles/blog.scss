@@ -22,13 +22,31 @@
 .navbar-toggler{
 	background-color: rgb(218, 214, 214);	
 }
-
-.navbar-container {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/blog-images/07.jpg);
+.navbar-about{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/psikolog-rusen-yavuz-3.jpg);
 	min-height: 300px;
-	background-size: cover;
+	background-size: 40%;
 	background-position: center;
-
+}
+.navbar-services{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/psikolog-rusen-yavuz-1.jpg);
+	min-height: 300px;
+	background-size: 40%;
+	background-position: center;
+}
+.navbar-blog{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/psikolog-rusen-yavuz-2.jpg);
+	min-height: 300px;
+	background-size: 40%;
+	background-position: center;
+}
+.navbar-contact{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/psikolog-rusen-yavuz-4.jpg);
+	min-height: 300px;
+	background-size: 40%;
+	background-position: center;
+}
+.navbar-container {
 	.blog-header {
 		h1 {
 			color: white;

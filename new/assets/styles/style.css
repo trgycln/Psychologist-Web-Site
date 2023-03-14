@@ -183,8 +183,8 @@ body #topPoint {
 @media (max-width: 992px) {
   #slider-section #sld-img .sld-img-container img {
     width: 150%;
-    margin-top: -150px;
-    margin-left: -60px;
+    margin-top: -275px;
+    margin-left: -100px;
   }
   #sld-title .hero-content {
     text-align: center;
@@ -309,6 +309,11 @@ body #topPoint {
 @media (max-width: 768px) {
   .service-section #bgContainer #service-container {
     min-height: 1600px;
+  }
+  #slider-section #sld-img .sld-img-container img {
+    width: 150%;
+    margin-top: -126px;
+    margin-left: -77px;
   }
 }
 @media (max-width: 300px) {
@@ -457,6 +462,27 @@ body #topPoint {
 #footer-section {
   padding: 30px 0 0;
   background: #070b3b;
+}
+
+.footer-social ul li a {
+  border: 1px solid rgba(240, 237, 237, 0.3);
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.footer-social ul li a:hover {
+  background-color: var(--main-color-one);
+}
+.footer-social ul li a:hover i {
+  color: #fff;
+}
+.footer-social ul li a i {
+  color: rgba(240, 237, 237, 0.3);
+  transition: all 0.5s;
 }
 
 element.style {
