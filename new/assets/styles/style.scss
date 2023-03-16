@@ -549,17 +549,17 @@ body {
 		}
 	}
 }
-
+.swiper-button-next,.swiper-button-prev{
+	opacity: 0.4;
+}
 // Reference Section Starts
 #testimonial-section {
 	.container {
 		.mySwiper {
-			height: 300px;
 		}
 
 		.row {
 			.sevice-box {
-				height: 250px;
 			}
 
 			.card {
@@ -575,6 +575,7 @@ body {
 				}
 
 				.card-body {
+					max-width: 350px;
 					.card-text {
 						color: rgba(0, 0, 0, 0.7);
 					}

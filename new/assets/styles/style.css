@@ -411,12 +411,10 @@ body #topPoint {
   font-weight: bold;
 }
 
-#testimonial-section .container .mySwiper {
-  height: 300px;
+.swiper-button-next, .swiper-button-prev {
+  opacity: 0.4;
 }
-#testimonial-section .container .row .sevice-box {
-  height: 250px;
-}
+
 #testimonial-section .container .row .card {
   border: none;
   border-top: 2px solid #021b79;
@@ -427,6 +425,9 @@ body #topPoint {
 }
 #testimonial-section .container .row .card #quote {
   color: var(--main-color-one);
+}
+#testimonial-section .container .row .card .card-body {
+  max-width: 350px;
 }
 #testimonial-section .container .row .card .card-body .card-text {
   color: rgba(0, 0, 0, 0.7);
