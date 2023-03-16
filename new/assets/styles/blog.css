@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --main-color-one: #f80759;
-  --main-color-two: #021B79;
+  --main-color-two: #021b79;
   --secondary-color: #006aec;
   --heading-color: #111111;
   --paragraph-color: #5f7586;
@@ -23,31 +23,31 @@
 }
 
 .navbar-about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/psikolog-rusen-yavuz-3.jpg);
-  min-height: 300px;
-  background-size: 40%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hakkimda.jpg);
+  min-height: 400px;
+  background-size: cover;
   background-position: center;
 }
 
 .navbar-services {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/psikolog-rusen-yavuz-1.jpg);
-  min-height: 300px;
-  background-size: 40%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hizmetler.jpg);
+  min-height: 400px;
+  background-size: cover;
   background-position: center;
 }
 
 .navbar-blog {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/psikolog-rusen-yavuz-2.jpg);
-  min-height: 300px;
-  background-size: 40%;
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/blog.jpg);
+  min-height: 400px;
+  background-size: cover;
+  background-position: top;
 }
 
 .navbar-contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/psikolog-rusen-yavuz-4.jpg);
-  min-height: 300px;
-  background-size: 40%;
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/iletisim.jpg);
+  min-height: 400px;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .navbar-container .blog-header h1 {
@@ -72,7 +72,7 @@
 #contentContainer #cardBox .card .arrowContainer {
   width: 50px;
   height: 50px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
   left: 50%;

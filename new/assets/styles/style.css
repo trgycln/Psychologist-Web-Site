@@ -411,7 +411,8 @@ body #topPoint {
   font-weight: bold;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   opacity: 0.4;
 }
 
