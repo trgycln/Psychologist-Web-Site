@@ -2,7 +2,7 @@
 
 :root {
 	--main-color-one: #f80759;
-	--main-color-two: #021B79;
+	--main-color-two: #021b79;
 	--secondary-color: #006aec;
 	--heading-color: #111111;
 	--paragraph-color: #5f7586;
@@ -19,16 +19,34 @@
 	text-decoration: none !important;
 }
 
-.navbar-toggler{
-	background-color: rgb(218, 214, 214);	
+.navbar-toggler {
+	background-color: rgb(218, 214, 214);
 }
-
-.navbar-container {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/blog-images/07.jpg);
-	min-height: 300px;
+.navbar-about {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hakkimda.jpg);
+	min-height: 400px;
 	background-size: cover;
 	background-position: center;
-
+}
+.navbar-services {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hizmetler.jpg);
+	min-height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+.navbar-blog {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/blog.jpg);
+	min-height: 400px;
+	background-size: cover;
+	background-position: top;
+}
+.navbar-contact {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/iletisim.jpg);
+	min-height: 400px;
+	background-size: cover;
+	background-position: bottom;
+}
+.navbar-container {
 	.blog-header {
 		h1 {
 			color: white;
@@ -36,11 +54,9 @@
 			font-weight: bold;
 		}
 	}
-
 }
 
-
-@media (max-width:992px) {
+@media (max-width: 992px) {
 	#navbarSupportedContent {
 		ul {
 			gap: 0 !important;
@@ -48,64 +64,62 @@
 	}
 }
 
-
 // Content Section
 
-#contentContainer{
-	#cardBox{
-		.card{
+#contentContainer {
+	#cardBox {
+		.card {
 			border: none;
-			background-color:#f7f1f1;
+			background-color: #f7f1f1;
 			border-bottom: 1px solid var(--main-color-two);
 			border-radius: 0;
 			position: relative;
 			margin-bottom: 35px;
-			.arrowContainer{
+			.arrowContainer {
 				width: 50px;
 				height: 50px;
-				background-color: #FFFFFF;
+				background-color: #ffffff;
 				border-radius: 50%;
 				position: absolute;
 				left: 50%;
 				z-index: 99;
 				transform: translateX(-50%);
 				bottom: -25px;
-				transition: all .5s;
+				transition: all 0.5s;
 				&:hover {
 					background-color: var(--main-color-one);
 					color: #fff;
 				}
-				&:hover svg{
+				&:hover svg {
 					color: #fff;
 				}
-				svg{
+				svg {
 					color: var(--main-color-one);
-					transition: all .5s;
+					transition: all 0.5s;
 				}
 			}
-			.card-body{
+			.card-body {
 				padding-bottom: 50px;
-				h5{
+				h5 {
 					color: var(--main-color-two);
 					font-weight: bold;
 					cursor: pointer;
 				}
-				a{
+				a {
 					color: black;
 					font-weight: bold;
-					&:hover{
+					&:hover {
 						color: var(--main-color-one);
 					}
 				}
-				div{
-					a{
+				div {
+					a {
 						color: var(--main-color-two);
-						.seperator{
+						.seperator {
 							color: var(--main-color-one);
-							
 						}
 					}
-					svg{
+					svg {
 						color: var(--main-color-two);
 					}
 				}
@@ -115,11 +129,11 @@
 }
 
 // Pagination
-.pagination-container{
-	nav{
-		ul{
-			li{			
-				a{
+.pagination-container {
+	nav {
+		ul {
+			li {
+				a {
 					display: flex !important;
 					justify-content: center !important;
 					align-items: center !important;
@@ -132,8 +146,8 @@
 					background: var(--main-color-two);
 					color: #fff;
 					margin: 0 1px;
-					transition: all linear .3s;
-					&:hover{
+					transition: all linear 0.3s;
+					&:hover {
 						background-color: var(--main-color-one);
 						color: #fff;
 					}
