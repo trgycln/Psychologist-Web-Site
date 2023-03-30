@@ -6,4 +6,4 @@
 
 <h1>Screen View<h1>
 
-![](./ekran.mp4)
+![](./ekran.gif)
