@@ -1,6 +1,6 @@
 
 <h1>Simple Website (Psychologist-Web-Site)<h1>
-<p>Used a bit vanilla JavaScript, HTML and CSS<p>
+<p>Used a bit vanilla JavaScript, HTML and SCSS<p>
 
 
 
